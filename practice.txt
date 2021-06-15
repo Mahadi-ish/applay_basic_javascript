@@ -1,0 +1,2 @@
+End = 12-6 integer float parseInt parseFloat type conversion
+Start = 14 prime number start

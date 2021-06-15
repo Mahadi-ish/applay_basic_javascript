@@ -1,0 +1,16 @@
+var today = new Date();
+var day = today.getDay();
+var month = today.getMonth();
+var time = today.getUTCHours();
+var minute = today.getUTCMinutes();
+var second = today.getUTCSeconds();
+var year = today.getUTCFullYear();
+var gmt = 6;
+var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+var monthlist = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+//var timelist = ["0","1","2","3","4","5","6","7","8","9","10","11","12"];
+console.log("Year is : "+ year);
+console.log("Month is : "+ monthlist[month] + ".");
+console.log("Today is : " + daylist[day] + ".");
+//var gmthour = timelist[time];
+console.log("hour is ", time + gmt ,"minute " + minute, "and second is:" + second);
