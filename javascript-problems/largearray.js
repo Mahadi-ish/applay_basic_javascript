@@ -7,4 +7,5 @@ for (var i = 0; i < result.length; i++){
     }
 
 }console.log(max);
+
 console.log(Math.max(...result));
