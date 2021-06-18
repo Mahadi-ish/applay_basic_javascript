@@ -8,6 +8,6 @@ function megaFriend(friendName){
     }
     return longName;
 }
-var  friend = ["abir","abdullah","robin","abdurrohim","ali"]
+var  friend = ["abir","abdullah","robin","abdurrohim","alimohammad"]
 var longFriend = megaFriend(friend);
 console.log(longFriend);
