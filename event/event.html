@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event handler</title>
+</head>
+<body>
+    <h1 onclick="clickH1Tag()">Exploring event</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vitae non assumenda ea ipsam harum officia? Harum voluptatum commodi sequi eveniet dolorum magni voluptates inventore iusto ex, repellendus ea illum ipsam quas adipisci enim ad qui laborum natus cumque fuga.</p>
+    <button id="first_btn">clickme-1</button>
+    <button id="second_btn">clickme-2</button>
+    <button>clickme-3</button>
+    <button>clickme-4</button>
+    <script>
+        document.getElementById('first_btn')
+            .addEventListener('click', function(){
+            document.body.style.fontSize = '32px';
+        })
+        // function handelClick(){
+        //     document.body.style.backgroundColor = 'cyan';
+        // }
+        // function handelSecondButton(){
+        //     document.body.style.backgroundColor = 'red';
+        // }
+        // var firstButton = document.getElementById('first_btn');
+        // firstButton.onclick = handelClick;
+        // var secondButton = document.getElementById('second_btn');
+        // secondButton.onclick = handelSecondButton;
+        // secondButton.addEventListener('dblclick',handelClick);
+    </script>
+</body>
+</html>
